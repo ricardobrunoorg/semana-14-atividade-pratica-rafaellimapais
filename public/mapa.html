@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Destinos | Portal de Destinos</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/mapa.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>cidades do mundo</h1>
+        <p>veja no mapa onde cada destino está localizado</p>
+    </header>
+
+    <main class="container">
+        <div class="nav-paginas">
+            <a href="index.html">&larr; voltar para a lista de destinos</a>
+        </div>
+
+        <div class="mapa-layout">
+            <div id="mapa" class="mapa-box"></div>
+
+            <aside class="painel-mapa">
+                <div>
+                    <h2>categorias</h2>
+                    <div id="legenda-categorias" class="legenda"></div>
+                </div>
+                <div>
+                    <h2>destinos</h2>
+                    <ul id="lista-cidades-mapa" class="lista-cidades"></ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.js"></script>
+    <script src="assets/scripts/mapa.js"></script>
+</body>
+</html>
