@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Destinos</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>cidades do mundo</h1>
+        <p>bem-vindo ao portal</p>
+    </header>
+
+    <main class="container">
+        <div class="controles-container">
+            <input type="text" id="input-busca" placeholder="Pesquisar destino...">
+            <div id="container-botoes">
+                <button id="btn-todas">todas as cidades</button>
+            </div>
+        </div>
+
+        <div id="container-cards" class="grid-cards">
+            <p class="aviso">carregando destinos...</p>
+        </div>
+    </main>
+
+    <div id="modal-detalhes" class="modal hidden">
+        <div class="modal-conteudo">
+            <span id="fechar-modal" class="fechar">&times;</span>
+            <div id="modal-corpo"></div>
+        </div>
+    </div>
+
+    <script src="assets/scripts/app.js"></script>
+</body>
+</html>

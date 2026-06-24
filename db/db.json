@@ -14,5 +14,123 @@
       "nome": "Usuario Comum",
       "email": "user@abc.com"
     }
+  ],
+  "cidades": [
+    {
+      "id": 1,
+      "nome": "Paris",
+      "descricaoCurta": "Capital francesa famosa por arte, gastronomia e a icônica Torre Eiffel.",
+      "descricaoCompleta": "Paris oferece museus de classe mundial como o Louvre, boulevards arborizados e cafés charmosos. Ideal para quem busca história, cultura rica e experiências gastronomicas inesquecíveis.",
+      "categoria": "Europa",
+      "preco": 5500,
+      "imagem": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=500",
+      "tags": ["Histórico", "Romântico", "Gastronomia"],
+      "destaque": true
+    },
+    {
+      "id": 2,
+      "nome": "Kyoto",
+      "descricaoCurta": "O coração cultural do Japão, repleto de templos clássicos e jardins.",
+      "descricaoCompleta": "Kyoto é famosa por seus inúmeros templos budistas clássicos, jardins imperiais, santuários xintoístas e casas de madeira tradicionais. É o lugar perfeito para vivenciar a cultura tradicional japonesa.",
+      "categoria": "Ásia",
+      "preco": 6200,
+      "imagem": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500",
+      "tags": ["Cultura", "Templos", "Natureza"],
+      "destaque": true
+    },
+    {
+      "id": 3,
+      "nome": "Rio de Janeiro",
+      "descricaoCurta": "Cidade maravilhosa com praias icônicas e o Cristo Redentor.",
+      "descricaoCompleta": "O Rio de Janeiro é uma grande cidade brasileira à beira-mar, famosa pelas praias de Copacabana e Ipanema, pela estátua do Cristo Redentor e pelo Pão de Açúcar. Vibração cultural única e paisagens naturais incríveis.",
+      "categoria": "América do Sul",
+      "preco": 1200,
+      "imagem": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=500",
+      "tags": ["Praia", "Carnaval", "Natureza"],
+      "destaque": false
+    },
+    {
+      "id": 4,
+      "nome": "Nova York",
+      "descricaoCurta": "A cidade que nunca dorme, polo global de cultura e finanças.",
+      "descricaoCompleta": "Nova York abriga pontos famosos como a Times Square, Central Park e a Estátua da Liberdade. Uma metrópole vibrante repleta de teatros da Broadway, museus e restaurantes de todas as culturas do mundo.",
+      "categoria": "América do Norte",
+      "preco": 7000,
+      "imagem": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+      "tags": ["Moderna", "Compras", "Teatro"],
+      "destaque": true
+    },
+    {
+      "id": 5,
+      "nome": "Roma",
+      "descricaoCurta": "Uma cidade cosmopolita com quase 3.000 anos de arte e arquitetura.",
+      "descricaoCompleta": "Roma, a capital da Itália, exibe ruínas antigas como o Fórum e o Coliseu que evocam o poder do antigo Império Romano. A cidade também é famosa pela culinária italiana autêntica e pelo Vaticano.",
+      "categoria": "Europa",
+      "preco": 4800,
+      "imagem": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=500",
+      "tags": ["Histórico", "Arqueologia", "Gastronomia"],
+      "destaque": false
+    },
+    {
+      "id": 6,
+      "nome": "Buenos Aires",
+      "descricaoCurta": "A capital do tango, conhecida por sua arquitetura de estilo europeu.",
+      "descricaoCompleta": "Buenos Aires é uma cidade vibrante com uma forte identidade cultural, famosa por seus shows de tango, bairros coloridos como o Caminito, livrarias majestosas e carnes de alta qualidade.",
+      "categoria": "América do Sul",
+      "preco": 2200,
+      "imagem": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=500",
+      "tags": ["Tango", "Cultura", "Econômico"],
+      "destaque": false
+    },
+    {
+      "id": 7,
+      "nome": "Tóquio",
+      "descricaoCurta": "A ultramoderna capital do Japão, misturando arranha-céus e templos antigos.",
+      "descricaoCompleta": "Tóquio oferece uma mistura única de tecnologia de ponta, cultura pop/anime em Akihabara e templos históricos como o Senso-ji. Uma das cidades mais seguras e gastronômicas do planeta.",
+      "categoria": "Ásia",
+      "preco": 7500,
+      "imagem": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=500",
+      "tags": ["Tecnologia", "Anime", "Moderna"],
+      "destaque": true
+    },
+    {
+      "id": 8,
+      "nome": "Machu Picchu",
+      "descricaoCurta": "A impressionante cidade perdida dos Incas no topo dos Andes.",
+      "descricaoCompleta": "Machu Picchu é uma cidadela inca situada nas alturas das montanhas do Peru. Famosa por suas intrincadas paredes de pedra e paisagens enigmáticas que atraem aventureiros do mundo todo.",
+      "categoria": "América do Sul",
+      "preco": 3500,
+      "imagem": "https://images.unsplash.com/photo-1509216242873-7786f446f465?w=500",
+      "tags": ["Aventura", "Histórico", "Mistério"],
+      "destaque": false
+    },
+    {
+      "id": 9,
+      "nome": "Londres",
+      "descricaoCurta": "Capital da Inglaterra, carregada de história real e museus gratuitos.",
+      "descricaoCompleta": "Londres é uma cidade do século XXI com uma história que remonta à era romana. Abriga o famoso Big Ben, a Abadia de Westminster e uma cena cultural incrivelmente diversa e moderna.",
+      "categoria": "Europa",
+      "preco": 5800,
+      "imagem": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=500",
+      "tags": ["Museus", "Histórico", "Monarquia"],
+      "destaque": false
+    },
+    {
+      "id": 10,
+      "nome": "Vancouver",
+      "descricaoCurta": "Cidade litorânea canadense cercada por montanhas e florestas.",
+      "descricaoCompleta": "Vancouver é ideal para quem ama a natureza sem abrir mão do conforto urbano. Conhecida por suas paisagens montanhosas cinematográficas, parques gigantes como o Stanley Park e ótima qualidade de vida.",
+      "categoria": "América do Norte",
+      "preco": 6400,
+      "imagem": "https://images.unsplash.com/photo-1559511260-66a654ae982a?w=500",
+      "tags": ["Natureza", "Frio", "Paisagem"],
+      "destaque": false
+    }
+  ],
+  "categorias": [
+    { "id": 1, "nome": "Europa" },
+    { "id": 2, "nome": "Ásia" },
+    { "id": 3, "nome": "América do Sul" },
+    { "id": 4, "nome": "América do Norte" }
   ]
 }
